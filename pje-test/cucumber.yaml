@@ -1,5 +1,5 @@
 ---
-default: -p bdd -p html -p firefox
+default: -p bdd -p html -p chrome
 html: --format html --out=logs/features.html
 # formato da informação no log:
 dot: --format progress

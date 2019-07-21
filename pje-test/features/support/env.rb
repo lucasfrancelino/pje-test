@@ -33,7 +33,7 @@ Capybara.configure do |config|
         else
             config.default_driver = :selenium
     end
-    config.app_host = ''
+    config.app_host = 'http://srvphpdsv2-trf1/pessoarequisitada'
 end
 
 Capybara.default_max_wait_time = 50
